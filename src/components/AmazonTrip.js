@@ -1,16 +1,15 @@
 import React from 'react';
 import { Card } from 'react-bootstrap'
 
-function TeslaAd() {
+function AmazonTrip() {
   return (
     <div className="">
     <Card style={{ width: '18rem' }}>
     <Card.Body>
-    <Card.Title>Card Title</Card.Title>
-    <Card.Subtitle className="mb-2 text-muted">Tesla Ad</Card.Subtitle>
+    <Card.Title>Trip To Saturn</Card.Title>
+    <Card.Subtitle className="mb-2 text-muted">Move to Saturn</Card.Subtitle>
     <Card.Text>
-    Some quick example text to build on the card title and make up the bulk of
-    the card's content.
+    Win a trip to Saturn sans oxygen
     </Card.Text>
     <Card.Link href="#">Card Link</Card.Link>
     <Card.Link href="#">Another Link</Card.Link>
@@ -20,4 +19,4 @@ function TeslaAd() {
   );
 }
 
-export default TeslaAd;
+export default AmazonTrip;
