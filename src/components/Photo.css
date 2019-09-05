@@ -1,0 +1,8 @@
+.Photo h1 {
+  color: lightgray;
+  font-size: 6em;
+}
+
+.Photo img {
+  height: 1000px;
+}
